@@ -4,41 +4,66 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Calculator</title>
-        <link rel="stylesheet" href="./style/style.scss">
+        <link rel="stylesheet" href="/style/style.css">
     </head>
     <body>
 
         <main>
             <section class="calculator">
-                <div class="calculator__top"></div>
+                <div class="calculator__theme">
+
+                    <button class="calculator__theme-light"><img
+                            src="./img/light.svg" alt="light"></button>
+                    <button class="calculator__theme-dark"><img
+                            src="./img/dark.svg" alt="dark"></button>
+                </div>
+
                 <div class="calculator__main">
-                    <div class="calculator__main-number"></div>
-                    <div class="calculator__main-result"></div>
+                    <div class="calculator__main-input">1412421</div>
+                    <div class="calculator__main-result">21312321</div>
+
                     <div class="calculator__main-buttons">
-                        <button class="calculator__main-btn btn-upper">C</button>
-                        <button class="calculator__main-btn btn-upper">%</button>
-                        <button class="calculator__main-btn btn-upper">%</button>
-                        <button class="calculator__main-btn btn-right">÷</button>
+                        <button class="calculator__main-btn btn-top">C</button>
+                        <button class="calculator__main-btn btn-top"><img src="./img/👀 Icon.svg" alt=""></button>
+                        <button class="calculator__main-btn btn-top">%</button>
+                        <button
+                            class="calculator__main-btn btn-right">÷</button>
 
-                        <button class="calculator__main-btn btn-center">7</button>
-                        <button class="calculator__main-btn btn-center">8</button>
-                        <button class="calculator__main-btn btn-center">9</button>
-                        <button class="calculator__main-btn btn-right">×</button>
+                        <button
+                            class="calculator__main-btn btn-center">7</button>
+                        <button
+                            class="calculator__main-btn btn-center">8</button>
+                        <button
+                            class="calculator__main-btn btn-center">9</button>
+                        <button
+                            class="calculator__main-btn btn-right">x</button>
 
-                        <button class="calculator__main-btn btn-center">4</button>
-                        <button class="calculator__main-btn btn-center">5</button>
-                        <button class="calculator__main-btn btn-center">6</button>
-                        <button class="calculator__main-btn btn-right">-</button>
+                        <button
+                            class="calculator__main-btn btn-center">4</button>
+                        <button
+                            class="calculator__main-btn btn-center">5</button>
+                        <button
+                            class="calculator__main-btn btn-center">6</button>
+                        <button
+                            class="calculator__main-btn btn-right">-</button>
 
-                        <button class="calculator__main-btn btn-center">1</button>
-                        <button class="calculator__main-btn btn-center">2</button>
-                        <button class="calculator__main-btn btn-center">3</button>
-                        <button class="calculator__main-btn btn-right">+</button>
+                        <button
+                            class="calculator__main-btn btn-center">1</button>
+                        <button
+                            class="calculator__main-btn btn-center">2</button>
+                        <button
+                            class="calculator__main-btn btn-center">3</button>
+                        <button
+                            class="calculator__main-btn btn-right">+</button>
 
-                        <button class="calculator__main-btn btn-center">.</button>
-                        <button class="calculator__main-btn btn-center">0</button>
-                        <button class="calculator__main-btn btn-center"></button>
-                        <button class="calculator__main-btn btn-right">=</button>
+                        <button
+                            class="calculator__main-btn btn-center">.</button>
+                        <button
+                            class="calculator__main-btn btn-center">0</button>
+                        <button
+                            class="calculator__main-btn btn-center"><img src="./img/Delete.svg" alt="delete-btn"></button>
+                        <button
+                            class="calculator__main-btn btn-right">=</button>
                     </div>
                 </div>
             </section>

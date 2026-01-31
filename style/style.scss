@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    color: #fff;
+}
+
+body {
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    background-color: #17171C;
+}
+
+
+
+// tablet styles
+@import 'tablet.scss';
+
+
+.btn-top{
+    background-color: #4E505F;
+}
+
+.btn-right{
+    background-color: #4B5EFC;
+}
