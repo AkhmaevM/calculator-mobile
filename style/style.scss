@@ -16,6 +16,9 @@ body {
 // tablet styles
 @import 'tablet.scss';
 
+// mobile styles
+@import "mobile.scss";
+
 
 .btn-top{
     background-color: #4E505F;
@@ -24,3 +27,4 @@ body {
 .btn-right{
     background-color: #4B5EFC;
 }
+

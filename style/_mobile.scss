@@ -1,0 +1,28 @@
+@media screen and (max-width:426px) {
+
+    .calculator {
+
+
+        &__theme {
+            margin-top: 60px;
+            margin-bottom: 55px;
+        }
+
+
+        &__main {
+            max-width: 335px;
+            
+            // margin-left: 0;
+            // margin-right: 0;
+
+            &-buttons{
+                align-items: center;
+            }
+            &-btn {
+                width: 71px;
+                height: 72px;
+            }
+        }
+    }
+
+}
