@@ -1,17 +1,17 @@
-const numbers = document.querySelector('calculator__main-buttons');
-const number = document.querySelectorAll('calculator__main-btn');
+const number = document.querySelectorAll('.calculator__main-btn ');
+const userInput = document.querySelector('.calculator__main-input');
 
-const clickChecker = () => {
-    console.log('click')
+console.log(number);
+
+
+
+for (let i = 0; i < number.length; i++) {
+    number[i].onclick = ()=>{
+        console.log(number[i].textContent);
+        console.log(userInput.value);
+        userInput.value += number[i].textContent;    
+    }
+     
+    
 }
 
-// number.onclick = clickChecker();
-
-document.addEventListener('DOMContentLoaded', () => {
-
-    number.addEventListener('click', function clickListener () {
-        console.log('click');
-    })
-
-
-})
