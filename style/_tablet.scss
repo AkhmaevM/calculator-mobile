@@ -1,7 +1,6 @@
 @media screen and (max-width:769px) {
 
 
-
     .calculator {
         background-color: #17171C;
         color: #fff;
@@ -23,7 +22,7 @@
             column-gap: 12px;
             align-items: center;
 
-    
+
             &>button {
                 background-color: #2E2F38;
                 border: 0;
@@ -43,11 +42,16 @@
 
 
             &-input {
+                background-color: #17171C;
+                border: 0;
+                outline: 0;
                 font-weight: 300;
                 font-size: 40px;
                 text-align: right;
                 opacity: 0.4;
-                width: 100%;
+                width: auto;
+                height: auto;
+
             }
 
             &-result {
@@ -76,7 +80,7 @@
                 font-weight: 400;
                 font-size: 32px;
                 line-height: 125%;
-                
+
                 padding: 12px;
                 border-radius: 24px;
                 width: 170px;
@@ -89,8 +93,8 @@
                     cursor: pointer;
                 }
 
-                &>img{
-                   width: 32px;
+                &>img {
+                    width: 32px;
                     height: 32px;
                 }
             }
