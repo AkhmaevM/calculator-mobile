@@ -59,6 +59,10 @@ body {
     font-size: 96px;
     line-height: 100%;
     text-align: right;
+    height: 96px;
+    background-color: #17171C;
+    border: 0;
+    outline: 0;
   }
   .calculator__main-buttons {
     display: flex;
@@ -99,6 +103,7 @@ body {
   }
   .calculator__main-buttons {
     align-items: center;
+    justify-content: space-around;
   }
   .calculator__main-btn {
     width: 71px;
