@@ -5,16 +5,21 @@ const result = document.querySelector('.calculator__main-result');
 const btnMultiplication = document.querySelector('.btn-multiplication');
 const btnClear = document.querySelector('.btn-clear');
 const appWrapper = document.querySelector('.calculator__main');
+const deleteBtn = document.querySelector('.btn-delete');
+const changeSignBtn = document.querySelector('.btn-changeSign');
 
-console.log(number);
-console.log(appWrapper);
-console.log(appWrapper.style);
+
+console.log(changeSignBtn);
 
 for (let i = 0; i < number.length; i++) {
     number[i].onclick = () => {
-        console.log(number[i].textContent);
-        console.log(userInput.value);
+        
+        changeSignBtn.onclick = ()=>{
+            userInput.value = userInput.value * -1;
+        }
+
         userInput.value += number[i].textContent;
+
         if (userInput.value.length === 15 || appWrapper.style.width === "375px") {
             userInput.style.fontSize = '32px';
         }
@@ -36,6 +41,14 @@ for (let i = 0; i < number.length; i++) {
             }
         }
 
+        deleteBtn.onclick = ()=>{
+            for (let i = 0; i < userInput.value.length; i++) {
+                console.log(userInput.value[i]);
+                
+            }
+            // console.log(userInput.value.at[-1]);
+            userInput.value = userInput.value.slice(0, -1)
+        }
 
     }
 }
@@ -47,3 +60,6 @@ btnClear.onclick = () => {
 
 
 
+function changeSign (x){
+    return -1*x;
+}
