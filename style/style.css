@@ -10,6 +10,99 @@ body {
   background-color: #17171C;
 }
 
+.btn-top {
+  background-color: #4E505F;
+}
+
+.btn-right {
+  background-color: #4B5EFC;
+}
+
+.calculator {
+  background-color: #17171C;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.calculator__theme {
+  margin-top: 60px;
+  margin-bottom: 267px;
+  background-color: #2E2F38;
+  width: 72px;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: row;
+  -moz-column-gap: 12px;
+       column-gap: 12px;
+  align-items: center;
+}
+.calculator__theme > button {
+  background-color: #2E2F38;
+  border: 0;
+  border-radius: 100%;
+  padding: 4px 0px 4px 4px;
+}
+.calculator__main {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+  width: 728px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.calculator__main-input {
+  background-color: #17171C;
+  border: 0;
+  outline: 0;
+  font-weight: 300;
+  font-size: 40px;
+  text-align: right;
+  opacity: 0.4;
+  width: auto;
+  height: auto;
+}
+.calculator__main-result {
+  font-weight: 300;
+  font-size: 96px;
+  line-height: 100%;
+  text-align: right;
+  height: 96px;
+  background-color: #17171C;
+  border: 0;
+  outline: 0;
+}
+.calculator__main-buttons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-between;
+  gap: 10px;
+}
+.calculator__main-btn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 125%;
+  padding: 12px;
+  border-radius: 24px;
+  width: 170px;
+  height: 72px;
+  border: 0;
+  background-color: #2E2F38;
+}
+.calculator__main-btn:hover {
+  cursor: pointer;
+}
+.calculator__main-btn > img {
+  width: 32px;
+  height: 32px;
+}
+
 @media screen and (max-width: 769px) {
   .calculator {
     background-color: #17171C;
@@ -97,12 +190,20 @@ body {
   }
 }
 @media screen and (max-width: 376px) {
+  main {
+    width: 335px;
+  }
+  .calculator {
+    width: 335px;
+  }
   .calculator__theme {
     margin-top: 60px;
     margin-bottom: 55px;
   }
   .calculator__main {
-    max-width: 335px;
+    width: 335px;
+    margin-left: 0;
+    margin-right: 0;
   }
   .calculator__main-buttons {
     align-items: center;
@@ -112,11 +213,4 @@ body {
     width: 71px;
     height: 72px;
   }
-}
-.btn-top {
-  background-color: #4E505F;
-}
-
-.btn-right {
-  background-color: #4B5EFC;
 }/*# sourceMappingURL=style.css.map */

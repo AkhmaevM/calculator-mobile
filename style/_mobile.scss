@@ -1,7 +1,11 @@
 @media screen and (max-width:376px) {
 
-    .calculator {
+    main{
+        width: 335px;
+    }
 
+    .calculator {
+         width: 335px;
 
         &__theme {
             margin-top: 60px;
@@ -10,10 +14,10 @@
 
 
         &__main {
-            max-width: 335px;
+            width: 335px;
             
-            // margin-left: 0;
-            // margin-right: 0;
+            margin-left: 0;
+            margin-right: 0;
 
             &-buttons{
                 align-items: center;
