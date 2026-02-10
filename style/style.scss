@@ -14,13 +14,7 @@ body {
 
 
 
-.btn-top{
-    background-color: #4E505F;
-}
 
-.btn-right{
-    background-color: #4B5EFC;
-}
 
 .calculator {
         background-color: #17171C;
@@ -129,3 +123,12 @@ body {
 
 // mobile styles
 @import "mobile.scss";
+
+
+.btn-top{
+    background-color: #4E505F;
+}
+
+.btn-right{
+    background-color: #4B5EFC;
+}

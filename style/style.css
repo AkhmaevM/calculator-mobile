@@ -10,14 +10,6 @@ body {
   background-color: #17171C;
 }
 
-.btn-top {
-  background-color: #4E505F;
-}
-
-.btn-right {
-  background-color: #4B5EFC;
-}
-
 .calculator {
   background-color: #17171C;
   color: #fff;
@@ -213,4 +205,11 @@ body {
     width: 71px;
     height: 72px;
   }
+}
+.btn-top {
+  background-color: #4E505F;
+}
+
+.btn-right {
+  background-color: #4B5EFC;
 }/*# sourceMappingURL=style.css.map */
